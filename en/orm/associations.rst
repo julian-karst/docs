@@ -50,7 +50,7 @@ you can do so with the second parameter::
         {
             $this->belongsTo('Authors', [
                 'className' => 'Publishing.Authors',
-                'foreignKey' => 'authorid',
+                'foreignKey' => 'author_id',
                 'propertyName' => 'person'
             ]);
         }
